@@ -600,7 +600,7 @@ DeepSeek-R1 的设计反映了 AI 领域的一个更广泛趋势：**规模和�
 </v-clicks>
 
 ---
-layout: section
+layout: end
 ---
 
-# R1在应用层的机会、挑战、探索
+# 请各位老师批评指正！
