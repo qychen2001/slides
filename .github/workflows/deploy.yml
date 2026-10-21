@@ -25,14 +25,11 @@ jobs:
         with:
           node-version: 'lts/*'
 
-      - name: Setup @antfu/ni
-        run: npm i -g @antfu/ni
-
       - name: Install dependencies
-        run: nci
+        run: npm ci
 
       - name: Build
-        run: nr build
+        run: npm run build
         env:
           # Project site: /<repo>/. User site (<owner>.github.io): /.
           BASE_PATH: ${{ endsWith(github.event.repository.name, '.github.io') && '/' || format('/{0}/', github.event.repository.name) }}
