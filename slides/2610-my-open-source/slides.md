@@ -168,7 +168,7 @@ class: flex flex-col justify-center
 
 <div class="gloss text-3xl font-semibold">Your Pocket Coworker</div>
 
-<div v-click class="mt-4 text-2xl font-medium sub">给不写代码的人</div>
+<div v-click class="mt-4 text-2xl font-medium sub">打开网页，说句大白话，直接看到结果</div>
 
 <div v-click class="mt-6 text-lg leading-relaxed">
   <a href="https://github.com/poco-ai/poco-claw">github.com/poco-ai/poco-claw</a>
@@ -176,7 +176,7 @@ class: flex flex-col justify-center
 
 
 <!--
-这就引出了 Poco。它是为不写代码的人做的。一句话讲技术：我们把写代码的 AI 智能体放到云端，套一个简单好用的聊天界面，你用大白话说想改什么，它去改，你直接看到结果。不用装环境，不用碰命令行，打开网页就能用。它的名字叫 Pocket Coworker，口袋里的同事，现在在 GitHub 上有一千三百多颗星。
+这就引出了 Poco。当时我们发现，身边很多做产品的同学，都很想用上 Claude Code 这类写代码的智能体。但说实话，在那个时候，让一个产品经理直接去改代码，门槛还是很高：要装环境、要开命令行、还得看得懂报错。我们就想，能不能把这件事变得简单一点、好用一点？打开一个网页，用大白话说你想改什么，AI 去改，你直接看到结果。这就是 Poco，Pocket Coworker，口袋里的同事。现在回头看，大公司的 AI 办公产品也都在往这个方向走，这也说明当时我们看到的机会是真实存在的。
 -->
 
 ---
@@ -268,29 +268,112 @@ transition: fade
 
 <div v-click class="gloss text-2xl font-bold">2026-07 创建 · 20+ 贡献者</div>
 
+<div v-click class="mt-6 text-lg">没有一颗刷的星，每一颗都来自分享</div>
+
 
 <!--
 一行数字：Agentero 今年7月创建，现在一千多颗星，二十多位贡献者。不做科研的同学也一样，课程资料、社团的活动文档、设计素材，只要你在反复地找、反复地整理，就会遇到同样的断点。别把它当成只属于科研的故事，它讲的是：当你每天被同一个小麻烦卡住，那就是一个值得动手的信号。你不需要先想清楚要做一个多大的产品，先让自己明天少翻一次文件夹，就已经很好了。
+还想多说一句：这一千多颗星，没有一颗是刷出来的，全是真实用户点的，每一个都能在 GitHub 上看到。真实的星星从哪儿来？就是从一次次分享里来的。
 -->
 
 ---
-class: flex flex-col justify-center
+layout: center
+class: text-center
 ---
+
+# 薅牛毛的过程
+
+<div class="mt-4 text-xl">问题里套着问题，让问题带着你学</div>
+
+<div v-click class="mt-10 text-2xl font-bold leading-loose">
+做PPT → 做模板 → 收到PR → 有了队友<br>→ Charger → Poco → Agentero
+</div>
+
+<!--
+我们回头看看这一路。其实就是一个薅牛毛的过程：一个问题里面套着另一个问题，解决一个，又冒出下一个。为了做PPT，我去做了模板；模板放出去，收到了PR；PR 带来了队友；和队友一起做了 Charger；做 Charger 发现了不写代码的人改不了东西，于是有了 Poco；自己读论文太乱，又有了 Agentero。没有一步是提前规划好的。所以我的第一个建议是：从一个具体的烦恼开始，不用等自己先学会了再动手，让问题来驱动你学习。有了具体的问题，你学到的每一点马上都能用上，这种感觉会推着你一直往前走。
+-->
+
+---
+layout: center
+class: text-center
+---
+
+# 别太功利，享受薅牛毛
 
 <v-clicks>
 
-1. 从一个具体的烦恼开始，不必先学会
-2. 可以浅尝，但要留下点东西
-3. 先做真用户，再做改进者
+<div class="mt-8 text-2xl">不要只学"看起来有用"的东西</div>
+
+<div class="mt-6 text-2xl font-bold">边学边做 · 边学边玩 · 边分享</div>
 
 </v-clicks>
 
+<!--
+第二点，别太功利。很多同学学东西之前会先问：这个有没有用？能不能加分？能不能找工作？我做那个 Beamer 模板的时候，完全没想过它有什么用，就是觉得好玩、觉得好看。结果它带来了后面所有的故事。所以别只学看起来有用的东西，享受薅牛毛的过程，边学边做，边学边玩，边学边分享。浅尝辄止也没关系，但请留下点东西，一个小修复、一段文档、一个能复现的问题报告都行，收藏夹里吃灰的教程不算数。
+-->
+
+---
+layout: center
+class: text-center
+---
+
+# 吃狗粮 Dogfooding
+
+<v-clicks>
+
+<div class="mt-6 text-2xl">从自己的生活里长出产品</div>
+
+<div class="mt-4 text-2xl">这个阶段：先解决自己的问题，练好 AI 能力</div>
+
+<div class="mt-4 text-2xl">多听用户，多和外界聊：你是一个用户，不是所有用户</div>
+
+</v-clicks>
 
 <!--
-最后给大家三点建议。第一，从一个具体的烦恼开始，不用等自己先学会了再动手。烦恼越具体越好，"PPT 不好看""找不到充电桩"，就够了。很多人想入门 AI 或开源，第一步是找一套完整的教程从头学，结果学了两周就放下了。不是你不够努力，而是没有一个具体的问题拉着你往前走。有了问题，你学到的每一点马上都能用上，这种感觉会推着你继续。我做模板是因为要做PPT，做 Agentero 是因为自己读论文太乱，没有一个是先学好了再开始的。
-第二，浅尝辄止没关系，但请留下点东西。一个小修复、一段文档、一个能复现的问题报告都行，别只留下收藏夹里吃灰的教程。收藏不算数，留下的东西才会被人看到，就像那个模板等来了樊铧纬。哪怕你最后没坚持下去，留下的那一点点，也可能在某天帮到某个人，甚至帮到未来的你自己。很多时候，你写的那个能复现的问题报告，就是别人修好它的起点。
-第三，先做一个真实的用户，再做改进者。每次做完问自己一句：明天我还会用它吗？如果自己都不想用，那它大概也只是好看。我们做 Agentero 的时候，自己每天都在用，一个按钮放得别扭，第二天自己就会觉得烦，然后就改了。这种反馈，比任何调研都来得快、来得真。
-但也有个边界：你是用户，但你不是所有用户。Charger 里那些不写代码的同学，提的反馈常常是写代码的人想不到的。所以吃自己的狗粮，也要听听别人吃完怎么说。自己用，是为了诚实；听别人说，是为了不把自己的习惯当成所有人的习惯。
+第三点，吃自己的狗粮。我觉得产品最好扎根在自己的生活里。我们见过不少学生做的 B 端产品，总觉得哪里不太对，原因很简单：我们没有真的在那个场景里待过，不够深。所以在学生这个阶段，我建议先解决自己生活里的问题，在这个过程中把 AI 的能力练起来，学习本身才是最重要的。每次做完问自己一句：明天我还会用它吗？
+但也有个边界：你是一个用户，但你不是所有用户。Charger 里那些不写代码的同学，提的反馈常常是写代码的人想不到的。所以吃自己的狗粮，也要多听听别人吃完怎么说，多和外面的世界聊一聊。
+-->
+
+---
+layout: center
+class: text-center
+---
+
+# Learn · Build · Share
+
+<div class="mt-4 text-xl">来自樊铧纬的自我介绍</div>
+
+<v-clicks>
+
+<div class="mt-8 text-2xl">学 → 做 → 分享，一个完整的闭环</div>
+
+<div class="mt-4 text-2xl font-bold">分享踩过的坑、得到的认知</div>
+
+<div class="mt-4 text-2xl">分享，也是在和用户对话</div>
+
+</v-clicks>
+
+<!--
+第四点，我借用樊铧纬的自我介绍：Learn、Build、Share。学、做、分享，这是一个完整的闭环。前两步大家都懂，我想特别强调最后一个，Share。把你踩过的坑、得到的认知分享出去，别人能少走弯路，你自己也会想得更清楚。而且分享本身，就是在和用户对话：你一分享，就会有人来说"我也遇到过"，或者"这里我看不懂"，这些都是最真实的反馈。前面说的那一千多颗星，也是这么一次次分享出来的。
+-->
+
+---
+layout: center
+class: text-center
+---
+
+# 广结善缘
+
+<v-clicks>
+
+<div class="mt-8 text-2xl">Datawhale、魔搭社区……分享成果，也分享心得</div>
+
+<div class="mt-4 text-2xl">可以当助教，也可以像我今天一样来做分享</div>
+
+</v-clicks>
+
+<!--
+第五点，广结善缘。像 Datawhale、魔搭社区这样的平台，给了我们很多机会，去分享做出来的东西，也分享一路上的心得。大家也可以参与进来，当助教，或者像我今天这样，来做一次分享。说实话，准备这次分享，对我自己也是一次复盘，很多以前只是隐约感觉到的东西，这次被整理成了一些 know-how。所以分享不只是给别人的，也是给自己的。
 -->
 
 ---
@@ -303,6 +386,38 @@ transition: fade
 
 <!--
 回到最开始。当年我只是想做一份好看的PPT，并没有先规划好整条开源路。从一个模板，到一个充电桩网站，再到 Poco 和 Agentero，每一步都是被眼前的问题带着走的。中间有很多半途而废，也有很多意外的收获。所以送大家一句话：薅牛毛决定你往哪儿走，吃狗粮决定你能走多远。
+-->
+
+---
+class: text-center
+---
+
+<div class="text-2xl font-bold">和一群志同道合的小伙伴，在最好的时代，做些有趣的事情，真是太棒了！</div>
+
+<div class="grid grid-cols-3 gap-4 mt-6">
+<div><img src="/award-1.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">AI Hackathon 环球黑客松 · 杭州</div></div>
+<div><img src="/award-2.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">AI Hackathon Tour 浙江大学站 · 第一名</div></div>
+<div><img src="/award-3.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">AI Hackathon Tour DEV CON Nanjing · 铜奖</div></div>
+<div><img src="/award-4.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">抖音AI创变者计划 长三角 · 二等奖</div></div>
+<div><img src="/award-5.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">世界人工智能开源大赛</div></div>
+<div><img src="/award-6.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">世界人工智能开源大赛</div></div>
+</div>
+
+<!--
+最后想说说我的队友们。这一年，我们一起参加了不少比赛：从杭州的环球黑客松，到浙大站拿了第一名，再到南京 DEV CON 的铜奖、抖音 AI 创变者计划长三角的二等奖，还有世界人工智能开源大赛。奖项当然开心，但我觉得最开心的，是和一群志同道合的小伙伴一起熬夜、一起改 bug、一起上台。一个人走得快，一群人才走得远，也走得更快乐。和一群志同道合的小伙伴，在最好的时代，做些有趣的事情，真是太棒了！
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<img src="/poco-logo.png" class="h-28 mx-auto" alt="Poco AI" />
+
+<div class="mt-10 text-3xl font-bold">打造极致的好工具，让每个人都能享受 AI 带来的便利</div>
+
+<!--
+这也是我们 Poco AI 团队的使命：打造极致的好工具，让每个人都能享受 AI 带来的便利。不管你会不会写代码，都应该能用上 AI。我们会继续朝这个方向努力，也欢迎大家加入我们。
 -->
 
 ---
