@@ -395,16 +395,16 @@ class: text-center
 <div class="text-2xl font-bold">和一群志同道合的小伙伴，在最好的时代，做些有趣的事情，真是太棒了！</div>
 
 <div class="grid grid-cols-3 gap-4 mt-6">
-<div><img src="/award-1.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">AI Hackathon 环球黑客松 · 杭州</div></div>
+<div><img src="/award-1.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">AI Hackathon 环球黑客松 · 三等奖</div></div>
 <div><img src="/award-2.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">AI Hackathon Tour 浙江大学站 · 第一名</div></div>
-<div><img src="/award-3.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">AI Hackathon Tour DEV CON Nanjing · 铜奖</div></div>
+<div><img src="/award-3.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">AI Hackathon Tour · 铜奖</div></div>
 <div><img src="/award-4.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">抖音AI创变者计划 长三角 · 二等奖</div></div>
 <div><img src="/award-5.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">世界人工智能开源大赛</div></div>
 <div><img src="/award-6.jpg" class="h-32 w-full object-cover rounded" /><div class="text-xs mt-1">世界人工智能开源大赛</div></div>
 </div>
 
 <!--
-最后想说说我的队友们。这一年，我们一起参加了不少比赛：从杭州的环球黑客松，到浙大站拿了第一名，再到南京 DEV CON 的铜奖、抖音 AI 创变者计划长三角的二等奖，还有世界人工智能开源大赛。奖项当然开心，但我觉得最开心的，是和一群志同道合的小伙伴一起熬夜、一起改 bug、一起上台。一个人走得快，一群人才走得远，也走得更快乐。和一群志同道合的小伙伴，在最好的时代，做些有趣的事情，真是太棒了！
+最后想说说我的队友们。这一年，我们一起参加了不少比赛：从环球黑客松的三等奖，到浙大站拿了第一名，再到 AI Hackathon Tour 的铜奖、抖音 AI 创变者计划长三角的二等奖，还有世界人工智能开源大赛。奖项当然开心，但我觉得最开心的，是和一群志同道合的小伙伴一起熬夜、一起改 bug、一起上台。一个人走得快，一群人才走得远，也走得更快乐。和一群志同道合的小伙伴，在最好的时代，做些有趣的事情，真是太棒了！
 -->
 
 ---
