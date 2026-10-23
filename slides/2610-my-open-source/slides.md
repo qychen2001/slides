@@ -428,13 +428,16 @@ transition: fade
 
 # 谢谢！
 
-<div class="mt-8 text-xl leading-loose">
+<div class="mt-6 flex items-center justify-center gap-10">
+<div class="text-left text-xl leading-loose">
 <div>GitHub：<a href="https://github.com/qychen2001">github.com/qychen2001</a></div>
 <div>组织：<a href="https://github.com/poco-ai">github.com/poco-ai</a></div>
 <div>邮箱：<a href="mailto:chenqiyuan1012@gmail.com">chenqiyuan1012@gmail.com</a></div>
 <div>微信：17757380899</div>
 </div>
+<img src="/wechat-qr.png" class="w-44 h-44 object-contain" alt="微信二维码" />
+</div>
 
 <!--
-这是我的联系方式，欢迎大家来 GitHub 上看看、提意见，也欢迎加我微信交流。也欢迎大家给我们的项目提反馈，哪怕只是一句“这里我看不懂”。谢谢大家！
+这是我的联系方式，欢迎大家来 GitHub 上看看、提意见，也欢迎扫右边的二维码加我微信。也欢迎大家给我们的项目提反馈，哪怕只是一句“这里我看不懂”。谢谢大家！
 -->
