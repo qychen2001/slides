@@ -428,17 +428,6 @@ transition: fade
 
 # 谢谢！
 
-<div class="mt-10 flex items-start justify-center gap-16">
-<div class="flex flex-col items-center gap-3">
-<img src="/github-poco-qr.png" class="w-44 h-44 object-contain" alt="poco-ai GitHub" />
-<div class="text-lg">github.com/poco-ai</div>
-</div>
-<div class="flex flex-col items-center gap-3">
-<img src="/wechat-qr.png" class="w-44 h-44 object-contain" alt="微信二维码" />
-<div class="text-lg">微信</div>
-</div>
-</div>
-
 <!--
-扫左边的二维码可以看我们 Poco AI 的 GitHub，扫右边的加我微信。也欢迎大家给我们的项目提反馈，哪怕只是一句“这里我看不懂”。谢谢大家！
+谢谢大家！
 -->
